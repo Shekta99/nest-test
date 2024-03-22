@@ -10,7 +10,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get()
+  @Get('es')
   getHelloSpanish(): string {
     return this.appService.getHelloSpanish();
   }
